@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+
+<head>
+
+    <title>Hotel booking Form </title></head>
+<body bgcolor="sky blue" >
+<img src="https://www.hospitalitynet.org/picture/xl_153086938.jpg" align="right"   width= "50%" height="100%"><br>
+<form action="confirm" method="GET">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">Username: </label><input type="text" name="username" id="name" required autofocus placeholder="Your username">
+        <label for="email">Email: </label><input type="text" name="email" id="email" required placeholder="Your Email">
+        <label for="phone">Phone: </label><input type="tel" name="phone" id="phone" required placeholder="Please enter in your phone number">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Booking Details: </legend>
+        <label for="date">Booking date: </label><input id="date" type="date" name="date" min="2013-12-02">
+        <br>
+        <label for="number of guests">Number of guests: </label><input id="number of guests" name="numberofguests" min="1" max="6">
+        <br>
+        <p>Do you Require meals</p>
+        <label for="YesMeals">Yes: </label><input id="YesMeals" type="radio" name="meals" value="yesMeals">
+        <label for="NoMeals">No: </label><input id="NoMeals" type="radio" name="meals" value="NoMeals">
+        <br>
+        <label foe="balocony">Do You require balcony? </label><input id="balcony" type="checkbox" neme="balocony" value="yes" checked>
+        <br>
+    </fieldset>
+    <input type="submit">
+ </form>
+</body>
+</html>
